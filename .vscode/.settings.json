@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "oxc.oxc-vscode",
+
+  "editor.inlineSuggest.enabled": false,
+  "editor.tabCompletion": "off",
+
+  "github.copilot.enable": {
+    "*": false
+  }
+}

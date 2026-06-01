@@ -1,0 +1,38 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+
+  "plugins": [
+    "typescript",
+    "import",
+    "jsx-a11y",
+    "oxc"
+  ],
+
+  "jsPlugins": [
+    "eslint-plugin-solid"
+  ],
+
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
+
+  "rules": {
+    "solid/jsx-no-duplicate-props": "error",
+    "solid/jsx-no-undef": [
+      "error",
+      {
+        "typescriptEnabled": true
+      }
+    ],
+    "solid/jsx-uses-vars": "error",
+
+    "solid/no-innerhtml": "error",
+
+    "solid/no-destructure": "error",
+    "solid/prefer-for": "error",
+
+    "solid/reactivity": "warn",
+    "solid/event-handlers": "warn"
+  }
+}
